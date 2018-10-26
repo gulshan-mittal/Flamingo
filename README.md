@@ -1,44 +1,53 @@
-# Microsoft  codefundo Hackathon Idea
+# disaster-management
 
-**Team Name** : Corona
+A disaster management app we built for Codeshastra 2017. 
 
-**Team Members** : Gulshan Kumar, Ayush Agrawal, Aman Bansal 
+This WebApp won the First Prize at the same.
 
+## Features
 
+-Remote monitoring of disaster and relief response.
 
-## FLAMINGO
+-Automated suggestions of healthcare centres/police stations to triage relief from.
 
+-SMS alerts to victims in the area with directions to the nearest relief centre.
 
+-Monitoring of hospitals in the area.
 
+-Hospitals can update patient information merely by sending a simple SMS in case of communications loss.
 
-### Idea Proposal
+-Heatmap generation with the location of victims in the region to direct response.
 
+-Citizens in case of a disaster can send SMS's to the authority. This SMS stream will be monitored and keyword clustering will be carried out to initiate a response. 
 
-The ultimate aim of the our idea is to save lives and prevent economic losses through mechanisms to predict, prevent, and manage the impact of natural disasters. For this, we will build a web app (due to shortage of time but is scoped to deploy on mobile for end users) which will provides many facilities to predict, prevent and manage the impacts of natural disaster. The App  will provide remote monitoring of natural disasters and relief responses along with automated suggestions of relief centres to provide relief from disaster.
+-Facial recognition to hand out relief. Photos of victims to be taken at the centre. Facial recognition will determine if relief has already been handed out to a particular individual at the centre.
 
+-The families can search for their relatives by merely uploading their photos.
 
-#### Predict
+-Twitter Stream data analysis to coordinate response and relief.
 
-The App will predict if the individual is safe or not according to his/her location and for this we are using ML algorithms on data provided by various third party organisations and will provide initial warnings for when severe weather occurs.
+##Screenshots
 
+###Initiate Disaster
 
-#### Prevent
+![Screenshot](screenshots/code1.png)
 
-If there is any chance of occurence of any natural disaster predicted by our app, weather or forecast department then we will alert the individual by sending SMS or danger warning. If the natural disaster occurs then we will provide SMS alerts to victims in the area with directions to the nearest relief centre along with heatmap generation with the location of victims in the region to direct response. Monitoring of hospitals in the area and their status updation will also be focussed.
+###Place Suggestion
 
+![Screenshot](screenshots/code3.png)
 
-#### Management
+###Hospital Monitoring
 
-To manage the conditions during natural disaster the app sends the location of victim to the disaster management/ relief/ helping  organisations.It reduces the delay in services and try to ensure that  resources should reach the victims as early as possible.The families can also get information about their relatives by merely uploading their photos. We will also take the help of social networking sites like facebook or twitter to spread information about the disaster stricken areas.
+![Screenshot](screenshots/code5.png)
 
+###Heatmap
 
+![Screenshot](screenshots/code7.png)
 
+###SMS Stream clustering/analysis
 
-### Technology to be Used
-* Machine Learning Algorithms along with dataset of various organisation related to mitigation strategies and prevention from natural disaster.
-* Python
-* Javascript
-* SQL or sqlite3
-* Django
-* Microsoft Azure
+![Screenshot](screenshots/code8.png)
 
+###Facial Recognition for relief
+
+![Screenshot](screenshots/code9.png)
