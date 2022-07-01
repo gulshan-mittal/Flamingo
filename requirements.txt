@@ -37,7 +37,7 @@ numexpr==2.6.1
 numpy==1.11.1
 oauthlib==2.0.1
 odo==0.5.0
-openpyxl==2.3.2
+openpyxl==2.4.2
 pandas==0.18.1
 partd==0.3.6
 pathlib2==2.1.0
